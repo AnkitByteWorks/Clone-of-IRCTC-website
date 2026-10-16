@@ -1,0 +1,393 @@
+[
+  {
+    "trainNumber": "12309",
+    "trainName": "Patna New Delhi Tejas Rajdhani Express",
+    "trainType": "RAJDHANI",
+    "sourceStationCode": "PNBE",
+    "destinationStationCode": "NDLS",
+    "runningDays": [
+      "MONDAY",
+      "TUESDAY",
+      "WEDNESDAY",
+      "THURSDAY",
+      "FRIDAY",
+      "SATURDAY",
+      "SUNDAY"
+    ],
+    "routeStops": [
+      {
+        "stopSequence": 1,
+        "stationCode": "PNBE",
+        "stationName": "Patna Junction",
+        "arrivalTime": "SOURCE",
+        "departureTime": "19:10",
+        "haltMinutes": 0,
+        "dayOffset": 0,
+        "distanceFromSourceKm": 0,
+        "platformNumber": "1"
+      },
+      {
+        "stopSequence": 2,
+        "stationCode": "DDU",
+        "stationName": "Pt. Deen Dayal Upadhyaya Jn",
+        "arrivalTime": "22:10",
+        "departureTime": "22:20",
+        "haltMinutes": 10,
+        "dayOffset": 0,
+        "distanceFromSourceKm": 212,
+        "platformNumber": "4"
+      },
+      {
+        "stopSequence": 3,
+        "stationCode": "PRYJ",
+        "stationName": "Prayagraj Junction",
+        "arrivalTime": "00:10",
+        "departureTime": "00:12",
+        "haltMinutes": 2,
+        "dayOffset": 1,
+        "distanceFromSourceKm": 364,
+        "platformNumber": "1"
+      },
+      {
+        "stopSequence": 4,
+        "stationCode": "CNB",
+        "stationName": "Kanpur Central",
+        "arrivalTime": "02:15",
+        "departureTime": "02:20",
+        "haltMinutes": 5,
+        "dayOffset": 1,
+        "distanceFromSourceKm": 558,
+        "platformNumber": "1"
+      },
+      {
+        "stopSequence": 5,
+        "stationCode": "NDLS",
+        "stationName": "New Delhi",
+        "arrivalTime": "07:40",
+        "departureTime": "DEST",
+        "haltMinutes": 0,
+        "dayOffset": 1,
+        "distanceFromSourceKm": 998,
+        "platformNumber": "12"
+      }
+    ],
+    "coachClasses": [
+      {
+        "classCode": "1A",
+        "totalCoaches": 1,
+        "seatsPerCoach": 8,
+        "baseFarePerKm": 3.50,
+        "tatkalSurcharge": 500.00
+      },
+      {
+        "classCode": "2A",
+        "totalCoaches": 1,
+        "seatsPerCoach": 8,
+        "baseFarePerKm": 2.20,
+        "tatkalSurcharge": 400.00
+      },
+      {
+        "classCode": "3A",
+        "totalCoaches": 2,
+        "seatsPerCoach": 8,
+        "baseFarePerKm": 1.50,
+        "tatkalSurcharge": 300.00
+      }
+    ],
+    "active": true
+  },
+  {
+    "trainNumber": "12310",
+    "trainName": "New Delhi Patna Tejas Rajdhani Express",
+    "trainType": "RAJDHANI",
+    "sourceStationCode": "NDLS",
+    "destinationStationCode": "PNBE",
+    "runningDays": [
+      "MONDAY",
+      "TUESDAY",
+      "WEDNESDAY",
+      "THURSDAY",
+      "FRIDAY",
+      "SATURDAY",
+      "SUNDAY"
+    ],
+    "routeStops": [
+      {
+        "stopSequence": 1,
+        "stationCode": "NDLS",
+        "stationName": "New Delhi",
+        "arrivalTime": "SOURCE",
+        "departureTime": "17:10",
+        "haltMinutes": 0,
+        "dayOffset": 0,
+        "distanceFromSourceKm": 0,
+        "platformNumber": "12"
+      },
+      {
+        "stopSequence": 2,
+        "stationCode": "CNB",
+        "stationName": "Kanpur Central",
+        "arrivalTime": "21:52",
+        "departureTime": "21:57",
+        "haltMinutes": 5,
+        "dayOffset": 0,
+        "distanceFromSourceKm": 440,
+        "platformNumber": "1"
+      },
+      {
+        "stopSequence": 3,
+        "stationCode": "PRYJ",
+        "stationName": "Prayagraj Junction",
+        "arrivalTime": "00:03",
+        "departureTime": "00:05",
+        "haltMinutes": 2,
+        "dayOffset": 1,
+        "distanceFromSourceKm": 634,
+        "platformNumber": "4"
+      },
+      {
+        "stopSequence": 4,
+        "stationCode": "DDU",
+        "stationName": "Pt. Deen Dayal Upadhyaya Jn",
+        "arrivalTime": "02:00",
+        "departureTime": "02:10",
+        "haltMinutes": 10,
+        "dayOffset": 1,
+        "distanceFromSourceKm": 786,
+        "platformNumber": "2"
+      },
+      {
+        "stopSequence": 5,
+        "stationCode": "PNBE",
+        "stationName": "Patna Junction",
+        "arrivalTime": "05:15",
+        "departureTime": "DEST",
+        "haltMinutes": 0,
+        "dayOffset": 1,
+        "distanceFromSourceKm": 998,
+        "platformNumber": "1"
+      }
+    ],
+    "coachClasses": [
+      {
+        "classCode": "1A",
+        "totalCoaches": 1,
+        "seatsPerCoach": 8,
+        "baseFarePerKm": 3.50,
+        "tatkalSurcharge": 500.00
+      },
+      {
+        "classCode": "2A",
+        "totalCoaches": 1,
+        "seatsPerCoach": 8,
+        "baseFarePerKm": 2.20,
+        "tatkalSurcharge": 400.00
+      },
+      {
+        "classCode": "3A",
+        "totalCoaches": 2,
+        "seatsPerCoach": 8,
+        "baseFarePerKm": 1.50,
+        "tatkalSurcharge": 300.00
+      }
+    ],
+    "active": true
+  },
+  {
+    "trainNumber": "22436",
+    "trainName": "New Delhi Varanasi Vande Bharat Express",
+    "trainType": "VANDE_BHARAT",
+    "sourceStationCode": "NDLS",
+    "destinationStationCode": "BSB",
+    "runningDays": [
+      "MONDAY",
+      "TUESDAY",
+      "WEDNESDAY",
+      "FRIDAY",
+      "SATURDAY",
+      "SUNDAY"
+    ],
+    "routeStops": [
+      {
+        "stopSequence": 1,
+        "stationCode": "NDLS",
+        "stationName": "New Delhi",
+        "arrivalTime": "SOURCE",
+        "departureTime": "06:00",
+        "haltMinutes": 0,
+        "dayOffset": 0,
+        "distanceFromSourceKm": 0,
+        "platformNumber": "16"
+      },
+      {
+        "stopSequence": 2,
+        "stationCode": "CNB",
+        "stationName": "Kanpur Central",
+        "arrivalTime": "10:08",
+        "departureTime": "10:10",
+        "haltMinutes": 2,
+        "dayOffset": 0,
+        "distanceFromSourceKm": 440,
+        "platformNumber": "1"
+      },
+      {
+        "stopSequence": 3,
+        "stationCode": "PRYJ",
+        "stationName": "Prayagraj Junction",
+        "arrivalTime": "12:08",
+        "departureTime": "12:10",
+        "haltMinutes": 2,
+        "dayOffset": 0,
+        "distanceFromSourceKm": 634,
+        "platformNumber": "6"
+      },
+      {
+        "stopSequence": 4,
+        "stationCode": "BSB",
+        "stationName": "Varanasi Junction",
+        "arrivalTime": "14:00",
+        "departureTime": "DEST",
+        "haltMinutes": 0,
+        "dayOffset": 0,
+        "distanceFromSourceKm": 759,
+        "platformNumber": "1"
+      }
+    ],
+    "coachClasses": [
+      {
+        "classCode": "CC",
+        "totalCoaches": 2,
+        "seatsPerCoach": 8,
+        "baseFarePerKm": 1.80,
+        "tatkalSurcharge": 250.00
+      },
+      {
+        "classCode": "EC",
+        "totalCoaches": 1,
+        "seatsPerCoach": 8,
+        "baseFarePerKm": 3.00,
+        "tatkalSurcharge": 450.00
+      }
+    ],
+    "active": true
+  },
+  {
+    "trainNumber": "12301",
+    "trainName": "Howrah New Delhi Rajdhani Express",
+    "trainType": "RAJDHANI",
+    "sourceStationCode": "HWH",
+    "destinationStationCode": "NDLS",
+    "runningDays": [
+      "MONDAY",
+      "TUESDAY",
+      "WEDNESDAY",
+      "THURSDAY",
+      "FRIDAY",
+      "SATURDAY",
+      "SUNDAY"
+    ],
+    "routeStops": [
+      {
+        "stopSequence": 1,
+        "stationCode": "HWH",
+        "stationName": "Howrah Junction",
+        "arrivalTime": "SOURCE",
+        "departureTime": "16:50",
+        "haltMinutes": 0,
+        "dayOffset": 0,
+        "distanceFromSourceKm": 0,
+        "platformNumber": "9"
+      },
+      {
+        "stopSequence": 2,
+        "stationCode": "DHN",
+        "stationName": "Dhanbad Junction",
+        "arrivalTime": "20:00",
+        "departureTime": "20:05",
+        "haltMinutes": 5,
+        "dayOffset": 0,
+        "distanceFromSourceKm": 259,
+        "platformNumber": "2"
+      },
+      {
+        "stopSequence": 3,
+        "stationCode": "GAYA",
+        "stationName": "Gaya Junction",
+        "arrivalTime": "22:19",
+        "departureTime": "22:22",
+        "haltMinutes": 3,
+        "dayOffset": 0,
+        "distanceFromSourceKm": 458,
+        "platformNumber": "1"
+      },
+      {
+        "stopSequence": 4,
+        "stationCode": "DDU",
+        "stationName": "Pt. Deen Dayal Upadhyaya Jn",
+        "arrivalTime": "00:45",
+        "departureTime": "00:55",
+        "haltMinutes": 10,
+        "dayOffset": 1,
+        "distanceFromSourceKm": 663,
+        "platformNumber": "4"
+      },
+      {
+        "stopSequence": 5,
+        "stationCode": "PRYJ",
+        "stationName": "Prayagraj Junction",
+        "arrivalTime": "02:43",
+        "departureTime": "02:45",
+        "haltMinutes": 2,
+        "dayOffset": 1,
+        "distanceFromSourceKm": 815,
+        "platformNumber": "1"
+      },
+      {
+        "stopSequence": 6,
+        "stationCode": "CNB",
+        "stationName": "Kanpur Central",
+        "arrivalTime": "04:40",
+        "departureTime": "04:45",
+        "haltMinutes": 5,
+        "dayOffset": 1,
+        "distanceFromSourceKm": 1009,
+        "platformNumber": "1"
+      },
+      {
+        "stopSequence": 7,
+        "stationCode": "NDLS",
+        "stationName": "New Delhi",
+        "arrivalTime": "10:05",
+        "departureTime": "DEST",
+        "haltMinutes": 0,
+        "dayOffset": 1,
+        "distanceFromSourceKm": 1449,
+        "platformNumber": "13"
+      }
+    ],
+    "coachClasses": [
+      {
+        "classCode": "1A",
+        "totalCoaches": 1,
+        "seatsPerCoach": 8,
+        "baseFarePerKm": 3.50,
+        "tatkalSurcharge": 500.00
+      },
+      {
+        "classCode": "2A",
+        "totalCoaches": 1,
+        "seatsPerCoach": 8,
+        "baseFarePerKm": 2.20,
+        "tatkalSurcharge": 400.00
+      },
+      {
+        "classCode": "3A",
+        "totalCoaches": 2,
+        "seatsPerCoach": 8,
+        "baseFarePerKm": 1.50,
+        "tatkalSurcharge": 300.00
+      }
+    ],
+    "active": true
+  }
+]

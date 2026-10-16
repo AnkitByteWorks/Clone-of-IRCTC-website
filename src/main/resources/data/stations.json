@@ -1,0 +1,92 @@
+[
+  {
+    "stationCode": "PNBE",
+    "stationName": "Patna Junction",
+    "city": "Patna",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 10,
+    "active": true
+  },
+  {
+    "stationCode": "DDU",
+    "stationName": "Pt. Deen Dayal Upadhyaya Jn",
+    "city": "Mughalsarai",
+    "state": "Uttar Pradesh",
+    "zone": "ECR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "PRYJ",
+    "stationName": "Prayagraj Junction",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "zone": "NCR",
+    "numberOfPlatforms": 10,
+    "active": true
+  },
+  {
+    "stationCode": "CNB",
+    "stationName": "Kanpur Central",
+    "city": "Kanpur",
+    "state": "Uttar Pradesh",
+    "zone": "NCR",
+    "numberOfPlatforms": 10,
+    "active": true
+  },
+  {
+    "stationCode": "NDLS",
+    "stationName": "New Delhi",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "zone": "NR",
+    "numberOfPlatforms": 16,
+    "active": true
+  },
+  {
+    "stationCode": "BSB",
+    "stationName": "Varanasi Junction",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "zone": "NR",
+    "numberOfPlatforms": 9,
+    "active": true
+  },
+  {
+    "stationCode": "HWH",
+    "stationName": "Howrah Junction",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "zone": "ER",
+    "numberOfPlatforms": 23,
+    "active": true
+  },
+  {
+    "stationCode": "DHN",
+    "stationName": "Dhanbad Junction",
+    "city": "Dhanbad",
+    "state": "Jharkhand",
+    "zone": "ECR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "GAYA",
+    "stationName": "Gaya Junction",
+    "city": "Gaya",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 9,
+    "active": true
+  },
+  {
+    "stationCode": "BCT",
+    "stationName": "Mumbai Central",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "zone": "WR",
+    "numberOfPlatforms": 5,
+    "active": true
+  }
+]
