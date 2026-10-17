@@ -34,6 +34,16 @@ jobs:
 
       - name: Run Spring Boot & Testcontainers Integration Tests
         run: ./mvnw clean test -B
+        env:
+          MAVEN_OPTS: "-Xmx1024m -XX:+UseG1GC"
+
+      - name: Print Surefire Failure Dumps & Reports
+        if: failure()
+        run: |
+          echo "=== SUREFIRE DUMP FILES ==="
+          find target/surefire-reports -name "*dump*" -exec cat {} + || true
+          echo "=== FAILED TEST SUMMARIES ==="
+          grep -E "FAILURE!|ERROR!" target/surefire-reports/*.txt || true
 
       - name: Publish Test Results
         if: always()

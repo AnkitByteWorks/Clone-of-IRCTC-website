@@ -21,19 +21,21 @@ public class TestcontainersConfiguration {
 	@Bean
 	@ServiceConnection
 	public MongoDBContainer mongoDbContainer() {
-		return new MongoDBContainer(DockerImageName.parse("mongo:latest"));
+		return new MongoDBContainer(DockerImageName.parse("mongo:7.0"))
+				.withCommand("--wiredTigerCacheSizeGB", "0.25");
 	}
 
 	@Bean
 	@ServiceConnection
 	public MySQLContainer mysqlContainer() {
-		return new MySQLContainer(DockerImageName.parse("mysql:latest"));
+		return new MySQLContainer(DockerImageName.parse("mysql:8.4"))
+				.withCommand("mysqld", "--innodb-buffer-pool-size=64M", "--max-connections=50");
 	}
 
 	@Bean
 	@ServiceConnection(name = "redis")
 	public GenericContainer<?> redisContainer() {
-		return new GenericContainer<>(DockerImageName.parse("redis:latest")).withExposedPorts(6379);
+		return new GenericContainer<>(DockerImageName.parse("redis:7.4-alpine")).withExposedPorts(6379);
 	}
 
 }
