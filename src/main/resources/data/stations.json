@@ -88,5 +88,2633 @@
     "zone": "WR",
     "numberOfPlatforms": 5,
     "active": true
+  },
+  {
+    "stationCode": "DLI",
+    "stationName": "Old Delhi Junction",
+    "city": "Delhi",
+    "state": "Delhi",
+    "zone": "NR",
+    "numberOfPlatforms": 16,
+    "active": true
+  },
+  {
+    "stationCode": "NZM",
+    "stationName": "Hazrat Nizamuddin",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "zone": "NR",
+    "numberOfPlatforms": 9,
+    "active": true
+  },
+  {
+    "stationCode": "ANVT",
+    "stationName": "Anand Vihar Terminal",
+    "city": "Delhi",
+    "state": "Delhi",
+    "zone": "NR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "DEC",
+    "stationName": "Delhi Cantt",
+    "city": "Delhi",
+    "state": "Delhi",
+    "zone": "NR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "GZB",
+    "stationName": "Ghaziabad Junction",
+    "city": "Ghaziabad",
+    "state": "Uttar Pradesh",
+    "zone": "NR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "FDB",
+    "stationName": "Faridabad",
+    "city": "Faridabad",
+    "state": "Haryana",
+    "zone": "NR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "PNP",
+    "stationName": "Panipat Junction",
+    "city": "Panipat",
+    "state": "Haryana",
+    "zone": "NR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "KUN",
+    "stationName": "Karnal",
+    "city": "Karnal",
+    "state": "Haryana",
+    "zone": "NR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "KKDE",
+    "stationName": "Kurukshetra Junction",
+    "city": "Kurukshetra",
+    "state": "Haryana",
+    "zone": "NR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "UMB",
+    "stationName": "Ambala Cantt Junction",
+    "city": "Ambala",
+    "state": "Haryana",
+    "zone": "NR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "CDG",
+    "stationName": "Chandigarh Junction",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "zone": "NR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "KLK",
+    "stationName": "Kalka",
+    "city": "Kalka",
+    "state": "Haryana",
+    "zone": "NR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "LDH",
+    "stationName": "Ludhiana Junction",
+    "city": "Ludhiana",
+    "state": "Punjab",
+    "zone": "NR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "PGW",
+    "stationName": "Phagwara Junction",
+    "city": "Phagwara",
+    "state": "Punjab",
+    "zone": "NR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "JUC",
+    "stationName": "Jalandhar City Junction",
+    "city": "Jalandhar",
+    "state": "Punjab",
+    "zone": "NR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "JRC",
+    "stationName": "Jalandhar Cantt",
+    "city": "Jalandhar",
+    "state": "Punjab",
+    "zone": "NR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "BEAS",
+    "stationName": "Beas Junction",
+    "city": "Beas",
+    "state": "Punjab",
+    "zone": "NR",
+    "numberOfPlatforms": 2,
+    "active": true
+  },
+  {
+    "stationCode": "ASR",
+    "stationName": "Amritsar Junction",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "zone": "NR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "PTKC",
+    "stationName": "Pathankot Cantt",
+    "city": "Pathankot",
+    "state": "Punjab",
+    "zone": "NR",
+    "numberOfPlatforms": 2,
+    "active": true
+  },
+  {
+    "stationCode": "KTHU",
+    "stationName": "Kathua",
+    "city": "Kathua",
+    "state": "Jammu and Kashmir",
+    "zone": "NR",
+    "numberOfPlatforms": 2,
+    "active": true
+  },
+  {
+    "stationCode": "JAT",
+    "stationName": "Jammu Tawi",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "zone": "NR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "MCTM",
+    "stationName": "MCTM Udhampur",
+    "city": "Udhampur",
+    "state": "Jammu and Kashmir",
+    "zone": "NR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "SVDK",
+    "stationName": "Shri Mata Vaishno Devi Katra",
+    "city": "Katra",
+    "state": "Jammu and Kashmir",
+    "zone": "NR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "BTI",
+    "stationName": "Bathinda Junction",
+    "city": "Bathinda",
+    "state": "Punjab",
+    "zone": "NR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "FZR",
+    "stationName": "Firozpur Cantt",
+    "city": "Firozpur",
+    "state": "Punjab",
+    "zone": "NR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "RE",
+    "stationName": "Rewari Junction",
+    "city": "Rewari",
+    "state": "Haryana",
+    "zone": "NWR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "GGN",
+    "stationName": "Gurugram",
+    "city": "Gurgaon",
+    "state": "Haryana",
+    "zone": "NR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "ALJN",
+    "stationName": "Aligarh Junction",
+    "city": "Aligarh",
+    "state": "Uttar Pradesh",
+    "zone": "NCR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "TDL",
+    "stationName": "Tundla Junction",
+    "city": "Tundla",
+    "state": "Uttar Pradesh",
+    "zone": "NCR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "ETW",
+    "stationName": "Etawah Junction",
+    "city": "Etawah",
+    "state": "Uttar Pradesh",
+    "zone": "NCR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "MZP",
+    "stationName": "Mirzapur",
+    "city": "Mirzapur",
+    "state": "Uttar Pradesh",
+    "zone": "NCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "CAR",
+    "stationName": "Chunar Junction",
+    "city": "Chunar",
+    "state": "Uttar Pradesh",
+    "zone": "NCR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "AGC",
+    "stationName": "Agra Cantt",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "zone": "NCR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "AF",
+    "stationName": "Agra Fort",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "zone": "NCR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "MTJ",
+    "stationName": "Mathura Junction",
+    "city": "Mathura",
+    "state": "Uttar Pradesh",
+    "zone": "NCR",
+    "numberOfPlatforms": 10,
+    "active": true
+  },
+  {
+    "stationCode": "VGLJ",
+    "stationName": "VGL Jhansi Junction",
+    "city": "Jhansi",
+    "state": "Uttar Pradesh",
+    "zone": "NCR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "ORAI",
+    "stationName": "Orai",
+    "city": "Orai",
+    "state": "Uttar Pradesh",
+    "zone": "NCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "BNDA",
+    "stationName": "Banda",
+    "city": "Banda",
+    "state": "Uttar Pradesh",
+    "zone": "NCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "MKP",
+    "stationName": "Manikpur Junction",
+    "city": "Manikpur",
+    "state": "Uttar Pradesh",
+    "zone": "NCR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "MB",
+    "stationName": "Moradabad Junction",
+    "city": "Moradabad",
+    "state": "Uttar Pradesh",
+    "zone": "NR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "BE",
+    "stationName": "Bareilly Junction",
+    "city": "Bareilly",
+    "state": "Uttar Pradesh",
+    "zone": "NR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "SPN",
+    "stationName": "Shahjahanpur",
+    "city": "Shahjahanpur",
+    "state": "Uttar Pradesh",
+    "zone": "NR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "HRI",
+    "stationName": "Hardoi",
+    "city": "Hardoi",
+    "state": "Uttar Pradesh",
+    "zone": "NR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "LKO",
+    "stationName": "Lucknow Charbagh",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "zone": "NR",
+    "numberOfPlatforms": 9,
+    "active": true
+  },
+  {
+    "stationCode": "LJN",
+    "stationName": "Lucknow Junction",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "zone": "NER",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "GTNR",
+    "stationName": "Gomti Nagar",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "zone": "NER",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "BBK",
+    "stationName": "Barabanki Junction",
+    "city": "Barabanki",
+    "state": "Uttar Pradesh",
+    "zone": "NR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "AY",
+    "stationName": "Ayodhya Dham Junction",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "zone": "NR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "AYC",
+    "stationName": "Ayodhya Cantt",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "zone": "NR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "SLN",
+    "stationName": "Sultanpur Junction",
+    "city": "Sultanpur",
+    "state": "Uttar Pradesh",
+    "zone": "NR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "RBL",
+    "stationName": "Rae Bareli Junction",
+    "city": "Rae Bareli",
+    "state": "Uttar Pradesh",
+    "zone": "NR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "GD",
+    "stationName": "Gonda Junction",
+    "city": "Gonda",
+    "state": "Uttar Pradesh",
+    "zone": "NER",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "BST",
+    "stationName": "Basti",
+    "city": "Basti",
+    "state": "Uttar Pradesh",
+    "zone": "NER",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "GKP",
+    "stationName": "Gorakhpur Junction",
+    "city": "Gorakhpur",
+    "state": "Uttar Pradesh",
+    "zone": "NER",
+    "numberOfPlatforms": 10,
+    "active": true
+  },
+  {
+    "stationCode": "DEOS",
+    "stationName": "Deoria Sadar",
+    "city": "Deoria",
+    "state": "Uttar Pradesh",
+    "zone": "NER",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "BTT",
+    "stationName": "Bhatni Junction",
+    "city": "Bhatni",
+    "state": "Uttar Pradesh",
+    "zone": "NER",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "MAU",
+    "stationName": "Mau Junction",
+    "city": "Mau",
+    "state": "Uttar Pradesh",
+    "zone": "NER",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "BUI",
+    "stationName": "Ballia",
+    "city": "Ballia",
+    "state": "Uttar Pradesh",
+    "zone": "NER",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "DDN",
+    "stationName": "Dehradun Terminus",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "zone": "NR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "HW",
+    "stationName": "Haridwar",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "zone": "NR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "RK",
+    "stationName": "Roorkee",
+    "city": "Roorkee",
+    "state": "Uttarakhand",
+    "zone": "NR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "PPTA",
+    "stationName": "Patliputra Junction",
+    "city": "Patna",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "DNR",
+    "stationName": "Danapur",
+    "city": "Patna",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "RJPB",
+    "stationName": "Rajendra Nagar Terminal",
+    "city": "Patna",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "ARA",
+    "stationName": "Ara Junction",
+    "city": "Ara",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "BXR",
+    "stationName": "Buxar",
+    "city": "Buxar",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "BKP",
+    "stationName": "Bakhtiyarpur Junction",
+    "city": "Bakhtiyarpur",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "MKA",
+    "stationName": "Mokama",
+    "city": "Mokama",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "KIUL",
+    "stationName": "Kiul Junction",
+    "city": "Lakhisarai",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "JAJ",
+    "stationName": "Jhajha",
+    "city": "Jhajha",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "SSM",
+    "stationName": "Sasaram Junction",
+    "city": "Sasaram",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "DOS",
+    "stationName": "Dehri On Sone",
+    "city": "Dehri",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "CPR",
+    "stationName": "Chhapra Junction",
+    "city": "Chhapra",
+    "state": "Bihar",
+    "zone": "NER",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "SV",
+    "stationName": "Siwan Junction",
+    "city": "Siwan",
+    "state": "Bihar",
+    "zone": "NER",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "SEE",
+    "stationName": "Sonpur Junction",
+    "city": "Sonpur",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "HJP",
+    "stationName": "Hajipur Junction",
+    "city": "Hajipur",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "MFP",
+    "stationName": "Muzaffarpur Junction",
+    "city": "Muzaffarpur",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "SPJ",
+    "stationName": "Samastipur Junction",
+    "city": "Samastipur",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "DBG",
+    "stationName": "Darbhanga Junction",
+    "city": "Darbhanga",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "JYG",
+    "stationName": "Jaynagar",
+    "city": "Jaynagar",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "BJU",
+    "stationName": "Barauni Junction",
+    "city": "Barauni",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 9,
+    "active": true
+  },
+  {
+    "stationCode": "BGS",
+    "stationName": "Begusarai",
+    "city": "Begusarai",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "KGG",
+    "stationName": "Khagaria Junction",
+    "city": "Khagaria",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "NNA",
+    "stationName": "Naugachia",
+    "city": "Naugachia",
+    "state": "Bihar",
+    "zone": "ECR",
+    "numberOfPlatforms": 2,
+    "active": true
+  },
+  {
+    "stationCode": "KIR",
+    "stationName": "Katihar Junction",
+    "city": "Katihar",
+    "state": "Bihar",
+    "zone": "NFR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "KNE",
+    "stationName": "Kishanganj",
+    "city": "Kishanganj",
+    "state": "Bihar",
+    "zone": "NFR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "BGP",
+    "stationName": "Bhagalpur Junction",
+    "city": "Bhagalpur",
+    "state": "Bihar",
+    "zone": "ER",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "JMP",
+    "stationName": "Jamalpur Junction",
+    "city": "Jamalpur",
+    "state": "Bihar",
+    "zone": "ER",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "MDP",
+    "stationName": "Madhupur Junction",
+    "city": "Madhupur",
+    "state": "Jharkhand",
+    "zone": "ER",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "JSME",
+    "stationName": "Jasidih Junction",
+    "city": "Deoghar",
+    "state": "Jharkhand",
+    "zone": "ER",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "KQR",
+    "stationName": "Koderma Junction",
+    "city": "Koderma",
+    "state": "Jharkhand",
+    "zone": "ECR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "GMO",
+    "stationName": "Netaji SC Bose Gomoh",
+    "city": "Gomoh",
+    "state": "Jharkhand",
+    "zone": "ECR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "BKSC",
+    "stationName": "Bokaro Steel City",
+    "city": "Bokaro",
+    "state": "Jharkhand",
+    "zone": "SER",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "RNC",
+    "stationName": "Ranchi Junction",
+    "city": "Ranchi",
+    "state": "Jharkhand",
+    "zone": "SER",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "HTE",
+    "stationName": "Hatia",
+    "city": "Ranchi",
+    "state": "Jharkhand",
+    "zone": "SER",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "MURI",
+    "stationName": "Muri Junction",
+    "city": "Muri",
+    "state": "Jharkhand",
+    "zone": "SER",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "TATA",
+    "stationName": "Tatanagar Junction",
+    "city": "Jamshedpur",
+    "state": "Jharkhand",
+    "zone": "SER",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "CKP",
+    "stationName": "Chakradharpur",
+    "city": "Chakradharpur",
+    "state": "Jharkhand",
+    "zone": "SER",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "SDAH",
+    "stationName": "Sealdah",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "zone": "ER",
+    "numberOfPlatforms": 21,
+    "active": true
+  },
+  {
+    "stationCode": "KOAA",
+    "stationName": "Kolkata Terminus",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "zone": "ER",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "SHM",
+    "stationName": "Shalimar",
+    "city": "Howrah",
+    "state": "West Bengal",
+    "zone": "SER",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "SRC",
+    "stationName": "Santragachi Junction",
+    "city": "Howrah",
+    "state": "West Bengal",
+    "zone": "SER",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "BWN",
+    "stationName": "Barddhaman Junction",
+    "city": "Bardhaman",
+    "state": "West Bengal",
+    "zone": "ER",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "DGR",
+    "stationName": "Durgapur",
+    "city": "Durgapur",
+    "state": "West Bengal",
+    "zone": "ER",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "ASN",
+    "stationName": "Asansol Junction",
+    "city": "Asansol",
+    "state": "West Bengal",
+    "zone": "ER",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "CRJ",
+    "stationName": "Chittaranjan",
+    "city": "Chittaranjan",
+    "state": "West Bengal",
+    "zone": "ER",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "KGP",
+    "stationName": "Kharagpur Junction",
+    "city": "Kharagpur",
+    "state": "West Bengal",
+    "zone": "SER",
+    "numberOfPlatforms": 12,
+    "active": true
+  },
+  {
+    "stationCode": "MLDT",
+    "stationName": "Malda Town",
+    "city": "Malda",
+    "state": "West Bengal",
+    "zone": "ER",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "NFK",
+    "stationName": "New Farakka Junction",
+    "city": "Farakka",
+    "state": "West Bengal",
+    "zone": "ER",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "NJP",
+    "stationName": "New Jalpaiguri",
+    "city": "Siliguri",
+    "state": "West Bengal",
+    "zone": "NFR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "NOQ",
+    "stationName": "New Alipurduar",
+    "city": "Alipurduar",
+    "state": "West Bengal",
+    "zone": "NFR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "NBQ",
+    "stationName": "New Bongaigaon Junction",
+    "city": "Bongaigaon",
+    "state": "Assam",
+    "zone": "NFR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "RNY",
+    "stationName": "Rangiya Junction",
+    "city": "Rangiya",
+    "state": "Assam",
+    "zone": "NFR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "KYQ",
+    "stationName": "Kamakhya Junction",
+    "city": "Guwahati",
+    "state": "Assam",
+    "zone": "NFR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "GHY",
+    "stationName": "Guwahati",
+    "city": "Guwahati",
+    "state": "Assam",
+    "zone": "NFR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "LMG",
+    "stationName": "Lumding Junction",
+    "city": "Lumding",
+    "state": "Assam",
+    "zone": "NFR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "DMV",
+    "stationName": "Dimapur",
+    "city": "Dimapur",
+    "state": "Nagaland",
+    "zone": "NFR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "DBRG",
+    "stationName": "Dibrugarh",
+    "city": "Dibrugarh",
+    "state": "Assam",
+    "zone": "NFR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "AGTL",
+    "stationName": "Agartala",
+    "city": "Agartala",
+    "state": "Tripura",
+    "zone": "NFR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "CSMT",
+    "stationName": "Chhatrapati Shivaji Maharaj Terminus",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 18,
+    "active": true
+  },
+  {
+    "stationCode": "LTT",
+    "stationName": "Lokmanya Tilak Terminus",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "BDTS",
+    "stationName": "Bandra Terminus",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "zone": "WR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "DR",
+    "stationName": "Dadar Central",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "TNA",
+    "stationName": "Thane",
+    "city": "Thane",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 10,
+    "active": true
+  },
+  {
+    "stationCode": "KYN",
+    "stationName": "Kalyan Junction",
+    "city": "Kalyan",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "PNVL",
+    "stationName": "Panvel Junction",
+    "city": "Navi Mumbai",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "BVI",
+    "stationName": "Borivali",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "zone": "WR",
+    "numberOfPlatforms": 10,
+    "active": true
+  },
+  {
+    "stationCode": "LNL",
+    "stationName": "Lonavala",
+    "city": "Lonavala",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "PUNE",
+    "stationName": "Pune Junction",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "DD",
+    "stationName": "Daund Junction",
+    "city": "Daund",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "SUR",
+    "stationName": "Solapur",
+    "city": "Solapur",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "MRJ",
+    "stationName": "Miraj Junction",
+    "city": "Miraj",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "KOP",
+    "stationName": "Kolhapur CSMT",
+    "city": "Kolhapur",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "IGP",
+    "stationName": "Igatpuri",
+    "city": "Igatpuri",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "NK",
+    "stationName": "Nashik Road",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "MMR",
+    "stationName": "Manmad Junction",
+    "city": "Manmad",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "JL",
+    "stationName": "Jalgaon Junction",
+    "city": "Jalgaon",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "BSL",
+    "stationName": "Bhusawal Junction",
+    "city": "Bhusawal",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "SEG",
+    "stationName": "Shegaon",
+    "city": "Shegaon",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "AK",
+    "stationName": "Akola Junction",
+    "city": "Akola",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "BD",
+    "stationName": "Badnera Junction",
+    "city": "Amravati",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "WR",
+    "stationName": "Wardha Junction",
+    "city": "Wardha",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "NGP",
+    "stationName": "Nagpur Junction",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "CD",
+    "stationName": "Chandrapur",
+    "city": "Chandrapur",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "BPQ",
+    "stationName": "Balharshah Junction",
+    "city": "Balharshah",
+    "state": "Maharashtra",
+    "zone": "CR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "G",
+    "stationName": "Gondia Junction",
+    "city": "Gondia",
+    "state": "Maharashtra",
+    "zone": "SECR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "NND",
+    "stationName": "Hazur Sahib Nanded",
+    "city": "Nanded",
+    "state": "Maharashtra",
+    "zone": "SCR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "PBN",
+    "stationName": "Parbhani Junction",
+    "city": "Parbhani",
+    "state": "Maharashtra",
+    "zone": "SCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "J",
+    "stationName": "Jalna",
+    "city": "Jalna",
+    "state": "Maharashtra",
+    "zone": "SCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "AWB",
+    "stationName": "Chhatrapati Sambhajinagar",
+    "city": "Aurangabad",
+    "state": "Maharashtra",
+    "zone": "SCR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "MAO",
+    "stationName": "Madgaon Junction",
+    "city": "Goa",
+    "state": "Goa",
+    "zone": "KR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "THVM",
+    "stationName": "Thivim",
+    "city": "Goa",
+    "state": "Goa",
+    "zone": "KR",
+    "numberOfPlatforms": 2,
+    "active": true
+  },
+  {
+    "stationCode": "RN",
+    "stationName": "Ratnagiri",
+    "city": "Ratnagiri",
+    "state": "Maharashtra",
+    "zone": "KR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "VAPI",
+    "stationName": "Vapi",
+    "city": "Vapi",
+    "state": "Gujarat",
+    "zone": "WR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "BL",
+    "stationName": "Valsad",
+    "city": "Valsad",
+    "state": "Gujarat",
+    "zone": "WR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "NVS",
+    "stationName": "Navsari",
+    "city": "Navsari",
+    "state": "Gujarat",
+    "zone": "WR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "ST",
+    "stationName": "Surat",
+    "city": "Surat",
+    "state": "Gujarat",
+    "zone": "WR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "BH",
+    "stationName": "Bharuch Junction",
+    "city": "Bharuch",
+    "state": "Gujarat",
+    "zone": "WR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "BRC",
+    "stationName": "Vadodara Junction",
+    "city": "Vadodara",
+    "state": "Gujarat",
+    "zone": "WR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "ANND",
+    "stationName": "Anand Junction",
+    "city": "Anand",
+    "state": "Gujarat",
+    "zone": "WR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "ND",
+    "stationName": "Nadiad Junction",
+    "city": "Nadiad",
+    "state": "Gujarat",
+    "zone": "WR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "ADI",
+    "stationName": "Ahmedabad Junction",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "zone": "WR",
+    "numberOfPlatforms": 12,
+    "active": true
+  },
+  {
+    "stationCode": "GNC",
+    "stationName": "Gandhinagar Capital",
+    "city": "Gandhinagar",
+    "state": "Gujarat",
+    "zone": "WR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "MSH",
+    "stationName": "Mehsana Junction",
+    "city": "Mehsana",
+    "state": "Gujarat",
+    "zone": "WR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "PNU",
+    "stationName": "Palanpur Junction",
+    "city": "Palanpur",
+    "state": "Gujarat",
+    "zone": "WR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "RJT",
+    "stationName": "Rajkot Junction",
+    "city": "Rajkot",
+    "state": "Gujarat",
+    "zone": "WR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "JAM",
+    "stationName": "Jamnagar",
+    "city": "Jamnagar",
+    "state": "Gujarat",
+    "zone": "WR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "OKHA",
+    "stationName": "Okha",
+    "city": "Okha",
+    "state": "Gujarat",
+    "zone": "WR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "BHUJ",
+    "stationName": "Bhuj",
+    "city": "Bhuj",
+    "state": "Gujarat",
+    "zone": "WR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "KOTA",
+    "stationName": "Kota Junction",
+    "city": "Kota",
+    "state": "Rajasthan",
+    "zone": "WCR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "SWM",
+    "stationName": "Sawai Madhopur Junction",
+    "city": "Sawai Madhopur",
+    "state": "Rajasthan",
+    "zone": "WCR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "GGC",
+    "stationName": "Gangapur City",
+    "city": "Gangapur",
+    "state": "Rajasthan",
+    "zone": "WCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "BTE",
+    "stationName": "Bharatpur Junction",
+    "city": "Bharatpur",
+    "state": "Rajasthan",
+    "zone": "WCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "ABR",
+    "stationName": "Abu Road",
+    "city": "Abu Road",
+    "state": "Rajasthan",
+    "zone": "NWR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "FA",
+    "stationName": "Falna",
+    "city": "Falna",
+    "state": "Rajasthan",
+    "zone": "NWR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "MJ",
+    "stationName": "Marwar Junction",
+    "city": "Marwar",
+    "state": "Rajasthan",
+    "zone": "NWR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "BER",
+    "stationName": "Beawar",
+    "city": "Beawar",
+    "state": "Rajasthan",
+    "zone": "NWR",
+    "numberOfPlatforms": 2,
+    "active": true
+  },
+  {
+    "stationCode": "AII",
+    "stationName": "Ajmer Junction",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "zone": "NWR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "KSG",
+    "stationName": "Kishangarh",
+    "city": "Kishangarh",
+    "state": "Rajasthan",
+    "zone": "NWR",
+    "numberOfPlatforms": 2,
+    "active": true
+  },
+  {
+    "stationCode": "FL",
+    "stationName": "Phulera Junction",
+    "city": "Phulera",
+    "state": "Rajasthan",
+    "zone": "NWR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "JP",
+    "stationName": "Jaipur Junction",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "zone": "NWR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "GADJ",
+    "stationName": "Gandhinagar Jaipur",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "zone": "NWR",
+    "numberOfPlatforms": 2,
+    "active": true
+  },
+  {
+    "stationCode": "DO",
+    "stationName": "Dausa",
+    "city": "Dausa",
+    "state": "Rajasthan",
+    "zone": "NWR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "BKI",
+    "stationName": "Bandikui Junction",
+    "city": "Bandikui",
+    "state": "Rajasthan",
+    "zone": "NWR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "AWR",
+    "stationName": "Alwar Junction",
+    "city": "Alwar",
+    "state": "Rajasthan",
+    "zone": "NWR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "JU",
+    "stationName": "Jodhpur Junction",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "zone": "NWR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "BKN",
+    "stationName": "Bikaner Junction",
+    "city": "Bikaner",
+    "state": "Rajasthan",
+    "zone": "NWR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "UDZ",
+    "stationName": "Udaipur City",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "zone": "NWR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "RKMP",
+    "stationName": "Rani Kamlapati",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "zone": "WCR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "GWL",
+    "stationName": "Gwalior Junction",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "zone": "NCR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "MRA",
+    "stationName": "Morena",
+    "city": "Morena",
+    "state": "Madhya Pradesh",
+    "zone": "NCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "BINA",
+    "stationName": "Bina Junction",
+    "city": "Bina",
+    "state": "Madhya Pradesh",
+    "zone": "WCR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "ET",
+    "stationName": "Itarsi Junction",
+    "city": "Itarsi",
+    "state": "Madhya Pradesh",
+    "zone": "WCR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "PPI",
+    "stationName": "Pipariya",
+    "city": "Pipariya",
+    "state": "Madhya Pradesh",
+    "zone": "WCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "JBP",
+    "stationName": "Jabalpur Junction",
+    "city": "Jabalpur",
+    "state": "Madhya Pradesh",
+    "zone": "WCR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "KTE",
+    "stationName": "Katni Junction",
+    "city": "Katni",
+    "state": "Madhya Pradesh",
+    "zone": "WCR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "STA",
+    "stationName": "Satna Junction",
+    "city": "Satna",
+    "state": "Madhya Pradesh",
+    "zone": "WCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "REWA",
+    "stationName": "Rewa",
+    "city": "Rewa",
+    "state": "Madhya Pradesh",
+    "zone": "WCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "RTM",
+    "stationName": "Ratlam Junction",
+    "city": "Ratlam",
+    "state": "Madhya Pradesh",
+    "zone": "WR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "NAD",
+    "stationName": "Nagda Junction",
+    "city": "Nagda",
+    "state": "Madhya Pradesh",
+    "zone": "WR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "UJN",
+    "stationName": "Ujjain Junction",
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "zone": "WR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "DWX",
+    "stationName": "Dewas Junction",
+    "city": "Dewas",
+    "state": "Madhya Pradesh",
+    "zone": "WR",
+    "numberOfPlatforms": 2,
+    "active": true
+  },
+  {
+    "stationCode": "INDB",
+    "stationName": "Indore Junction",
+    "city": "Indore",
+    "state": "Madhya Pradesh",
+    "zone": "WR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "KNW",
+    "stationName": "Khandwa Junction",
+    "city": "Khandwa",
+    "state": "Madhya Pradesh",
+    "zone": "CR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "R",
+    "stationName": "Raipur Junction",
+    "city": "Raipur",
+    "state": "Chhattisgarh",
+    "zone": "SECR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "DURG",
+    "stationName": "Durg Junction",
+    "city": "Durg",
+    "state": "Chhattisgarh",
+    "zone": "SECR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "BSP",
+    "stationName": "Bilaspur Junction",
+    "city": "Bilaspur",
+    "state": "Chhattisgarh",
+    "zone": "SECR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "CPH",
+    "stationName": "Champa Junction",
+    "city": "Champa",
+    "state": "Chhattisgarh",
+    "zone": "SECR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "RIG",
+    "stationName": "Raigarh",
+    "city": "Raigarh",
+    "state": "Chhattisgarh",
+    "zone": "SECR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "ROU",
+    "stationName": "Rourkela Junction",
+    "city": "Rourkela",
+    "state": "Odisha",
+    "zone": "SER",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "JSG",
+    "stationName": "Jharsuguda Junction",
+    "city": "Jharsuguda",
+    "state": "Odisha",
+    "zone": "SECR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "SBP",
+    "stationName": "Sambalpur Junction",
+    "city": "Sambalpur",
+    "state": "Odisha",
+    "zone": "ECoR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "BBS",
+    "stationName": "Bhubaneswar",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "zone": "ECoR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "CTC",
+    "stationName": "Cuttack Junction",
+    "city": "Cuttack",
+    "state": "Odisha",
+    "zone": "ECoR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "KUR",
+    "stationName": "Khurda Road Junction",
+    "city": "Jatni",
+    "state": "Odisha",
+    "zone": "ECoR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "PURI",
+    "stationName": "Puri Terminus",
+    "city": "Puri",
+    "state": "Odisha",
+    "zone": "ECoR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "BAM",
+    "stationName": "Brahmapur",
+    "city": "Brahmapur",
+    "state": "Odisha",
+    "zone": "ECoR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "BLS",
+    "stationName": "Balasore",
+    "city": "Balasore",
+    "state": "Odisha",
+    "zone": "SER",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "BHC",
+    "stationName": "Bhadrak",
+    "city": "Bhadrak",
+    "state": "Odisha",
+    "zone": "ECoR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "VZM",
+    "stationName": "Vizianagaram Junction",
+    "city": "Vizianagaram",
+    "state": "Andhra Pradesh",
+    "zone": "ECoR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "VSKP",
+    "stationName": "Visakhapatnam Junction",
+    "city": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "zone": "ECoR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "DVD",
+    "stationName": "Duvvada",
+    "city": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "zone": "ECoR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "AKP",
+    "stationName": "Anakapalle",
+    "city": "Anakapalle",
+    "state": "Andhra Pradesh",
+    "zone": "SCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "SLO",
+    "stationName": "Samalkot Junction",
+    "city": "Samalkot",
+    "state": "Andhra Pradesh",
+    "zone": "SCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "RJY",
+    "stationName": "Rajahmundry",
+    "city": "Rajahmundry",
+    "state": "Andhra Pradesh",
+    "zone": "SCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "TDD",
+    "stationName": "Tadepalligudem",
+    "city": "Tadepalligudem",
+    "state": "Andhra Pradesh",
+    "zone": "SCR",
+    "numberOfPlatforms": 2,
+    "active": true
+  },
+  {
+    "stationCode": "EE",
+    "stationName": "Eluru",
+    "city": "Eluru",
+    "state": "Andhra Pradesh",
+    "zone": "SCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "BZA",
+    "stationName": "Vijayawada Junction",
+    "city": "Vijayawada",
+    "state": "Andhra Pradesh",
+    "zone": "SCR",
+    "numberOfPlatforms": 10,
+    "active": true
+  },
+  {
+    "stationCode": "GNT",
+    "stationName": "Guntur Junction",
+    "city": "Guntur",
+    "state": "Andhra Pradesh",
+    "zone": "SCR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "TEL",
+    "stationName": "Tenali Junction",
+    "city": "Tenali",
+    "state": "Andhra Pradesh",
+    "zone": "SCR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "OGL",
+    "stationName": "Ongole",
+    "city": "Ongole",
+    "state": "Andhra Pradesh",
+    "zone": "SCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "NLR",
+    "stationName": "Nellore",
+    "city": "Nellore",
+    "state": "Andhra Pradesh",
+    "zone": "SCR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "GDR",
+    "stationName": "Gudur Junction",
+    "city": "Gudur",
+    "state": "Andhra Pradesh",
+    "zone": "SCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "RU",
+    "stationName": "Renigunta Junction",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "zone": "SCR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "TPTY",
+    "stationName": "Tirupati Main",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "zone": "SCR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "GTL",
+    "stationName": "Guntakal Junction",
+    "city": "Guntakal",
+    "state": "Andhra Pradesh",
+    "zone": "SCR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "DHNE",
+    "stationName": "Dhone Junction",
+    "city": "Dhone",
+    "state": "Andhra Pradesh",
+    "zone": "SCR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "KRNT",
+    "stationName": "Kurnool City",
+    "city": "Kurnool",
+    "state": "Andhra Pradesh",
+    "zone": "SCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "SC",
+    "stationName": "Secunderabad Junction",
+    "city": "Secunderabad",
+    "state": "Telangana",
+    "zone": "SCR",
+    "numberOfPlatforms": 10,
+    "active": true
+  },
+  {
+    "stationCode": "HYB",
+    "stationName": "Hyderabad Deccan",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "zone": "SCR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "KCG",
+    "stationName": "Kacheguda",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "zone": "SCR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "KZJ",
+    "stationName": "Kazipet Junction",
+    "city": "Warangal",
+    "state": "Telangana",
+    "zone": "SCR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "WL",
+    "stationName": "Warangal",
+    "city": "Warangal",
+    "state": "Telangana",
+    "zone": "SCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "KMT",
+    "stationName": "Khammam",
+    "city": "Khammam",
+    "state": "Telangana",
+    "zone": "SCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "RDM",
+    "stationName": "Ramagundam",
+    "city": "Ramagundam",
+    "state": "Telangana",
+    "zone": "SCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "SKZR",
+    "stationName": "Sirpur Kaghaznagar",
+    "city": "Kagaznagar",
+    "state": "Telangana",
+    "zone": "SCR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "SBC",
+    "stationName": "KSR Bengaluru City",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "zone": "SWR",
+    "numberOfPlatforms": 10,
+    "active": true
+  },
+  {
+    "stationCode": "YPR",
+    "stationName": "Yesvantpur Junction",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "zone": "SWR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "SMVB",
+    "stationName": "SMVT Bengaluru",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "zone": "SWR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "BNC",
+    "stationName": "Bengaluru Cantt",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "zone": "SWR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "KJM",
+    "stationName": "Krishnarajapuram",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "zone": "SWR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "BWT",
+    "stationName": "Bangarapet Junction",
+    "city": "Bangarapet",
+    "state": "Karnataka",
+    "zone": "SWR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "MYA",
+    "stationName": "Mandya",
+    "city": "Mandya",
+    "state": "Karnataka",
+    "zone": "SWR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "MYS",
+    "stationName": "Mysuru Junction",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "zone": "SWR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "ASK",
+    "stationName": "Arsikere Junction",
+    "city": "Arsikere",
+    "state": "Karnataka",
+    "zone": "SWR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "DVG",
+    "stationName": "Davangere",
+    "city": "Davangere",
+    "state": "Karnataka",
+    "zone": "SWR",
+    "numberOfPlatforms": 2,
+    "active": true
+  },
+  {
+    "stationCode": "UBL",
+    "stationName": "SSS Hubballi Junction",
+    "city": "Hubballi",
+    "state": "Karnataka",
+    "zone": "SWR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "DWR",
+    "stationName": "Dharwad",
+    "city": "Dharwad",
+    "state": "Karnataka",
+    "zone": "SWR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "BGM",
+    "stationName": "Belagavi",
+    "city": "Belagavi",
+    "state": "Karnataka",
+    "zone": "SWR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "KLBG",
+    "stationName": "Kalaburagi Junction",
+    "city": "Kalaburagi",
+    "state": "Karnataka",
+    "zone": "CR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "MAQ",
+    "stationName": "Mangaluru Central",
+    "city": "Mangaluru",
+    "state": "Karnataka",
+    "zone": "SR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "MAJN",
+    "stationName": "Mangaluru Junction",
+    "city": "Mangaluru",
+    "state": "Karnataka",
+    "zone": "SR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "UD",
+    "stationName": "Udupi",
+    "city": "Udupi",
+    "state": "Karnataka",
+    "zone": "KR",
+    "numberOfPlatforms": 2,
+    "active": true
+  },
+  {
+    "stationCode": "MAS",
+    "stationName": "Chennai Central",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "zone": "SR",
+    "numberOfPlatforms": 17,
+    "active": true
+  },
+  {
+    "stationCode": "MS",
+    "stationName": "Chennai Egmore",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "zone": "SR",
+    "numberOfPlatforms": 11,
+    "active": true
+  },
+  {
+    "stationCode": "TBM",
+    "stationName": "Tambaram",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "zone": "SR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "AJJ",
+    "stationName": "Arakkonam Junction",
+    "city": "Arakkonam",
+    "state": "Tamil Nadu",
+    "zone": "SR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "KPD",
+    "stationName": "Katpadi Junction",
+    "city": "Vellore",
+    "state": "Tamil Nadu",
+    "zone": "SR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "JTJ",
+    "stationName": "Jolarpettai Junction",
+    "city": "Jolarpettai",
+    "state": "Tamil Nadu",
+    "zone": "SR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "SA",
+    "stationName": "Salem Junction",
+    "city": "Salem",
+    "state": "Tamil Nadu",
+    "zone": "SR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "ED",
+    "stationName": "Erode Junction",
+    "city": "Erode",
+    "state": "Tamil Nadu",
+    "zone": "SR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "TUP",
+    "stationName": "Tiruppur",
+    "city": "Tiruppur",
+    "state": "Tamil Nadu",
+    "zone": "SR",
+    "numberOfPlatforms": 2,
+    "active": true
+  },
+  {
+    "stationCode": "CBE",
+    "stationName": "Coimbatore Junction",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "zone": "SR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "TPJ",
+    "stationName": "Tiruchchirappalli Junction",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "zone": "SR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "DG",
+    "stationName": "Dindigul Junction",
+    "city": "Dindigul",
+    "state": "Tamil Nadu",
+    "zone": "SR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "MDU",
+    "stationName": "Madurai Junction",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "zone": "SR",
+    "numberOfPlatforms": 8,
+    "active": true
+  },
+  {
+    "stationCode": "TEN",
+    "stationName": "Tirunelveli Junction",
+    "city": "Tirunelveli",
+    "state": "Tamil Nadu",
+    "zone": "SR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "NCJ",
+    "stationName": "Nagercoil Junction",
+    "city": "Nagercoil",
+    "state": "Tamil Nadu",
+    "zone": "SR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "CAPE",
+    "stationName": "Kanniyakumari",
+    "city": "Kanyakumari",
+    "state": "Tamil Nadu",
+    "zone": "SR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "PGT",
+    "stationName": "Palakkad Junction",
+    "city": "Palakkad",
+    "state": "Kerala",
+    "zone": "SR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "SRR",
+    "stationName": "Shoranur Junction",
+    "city": "Shoranur",
+    "state": "Kerala",
+    "zone": "SR",
+    "numberOfPlatforms": 7,
+    "active": true
+  },
+  {
+    "stationCode": "CLT",
+    "stationName": "Kozhikode Main",
+    "city": "Kozhikode",
+    "state": "Kerala",
+    "zone": "SR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "CAN",
+    "stationName": "Kannur",
+    "city": "Kannur",
+    "state": "Kerala",
+    "zone": "SR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "TCR",
+    "stationName": "Thrissur",
+    "city": "Thrissur",
+    "state": "Kerala",
+    "zone": "SR",
+    "numberOfPlatforms": 4,
+    "active": true
+  },
+  {
+    "stationCode": "AWY",
+    "stationName": "Aluva",
+    "city": "Kochi",
+    "state": "Kerala",
+    "zone": "SR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "ERN",
+    "stationName": "Ernakulam Town",
+    "city": "Kochi",
+    "state": "Kerala",
+    "zone": "SR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "ERS",
+    "stationName": "Ernakulam Junction",
+    "city": "Kochi",
+    "state": "Kerala",
+    "zone": "SR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "ALLP",
+    "stationName": "Alappuzha",
+    "city": "Alappuzha",
+    "state": "Kerala",
+    "zone": "SR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "KTYM",
+    "stationName": "Kottayam",
+    "city": "Kottayam",
+    "state": "Kerala",
+    "zone": "SR",
+    "numberOfPlatforms": 3,
+    "active": true
+  },
+  {
+    "stationCode": "KYJ",
+    "stationName": "Kayamkulam Junction",
+    "city": "Kayamkulam",
+    "state": "Kerala",
+    "zone": "SR",
+    "numberOfPlatforms": 5,
+    "active": true
+  },
+  {
+    "stationCode": "QLN",
+    "stationName": "Kollam Junction",
+    "city": "Kollam",
+    "state": "Kerala",
+    "zone": "SR",
+    "numberOfPlatforms": 6,
+    "active": true
+  },
+  {
+    "stationCode": "TVC",
+    "stationName": "Thiruvananthapuram Central",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "zone": "SR",
+    "numberOfPlatforms": 5,
+    "active": true
   }
 ]
