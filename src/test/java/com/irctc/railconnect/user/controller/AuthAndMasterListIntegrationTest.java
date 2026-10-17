@@ -51,6 +51,12 @@ class AuthAndMasterListIntegrationTest {
         userRepository.deleteAll();
     }
 
+    @org.junit.jupiter.api.AfterEach
+    void tearDown() {
+        savedPassengerRepository.deleteAll();
+        userRepository.deleteAll();
+    }
+
     @Test
     @DisplayName("Should register, login, and access protected master passenger endpoints with JWT")
     void shouldRegisterLoginAndAccessProtectedMasterPassengerEndpointsWithJwt() throws Exception {

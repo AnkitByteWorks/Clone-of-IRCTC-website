@@ -77,6 +77,9 @@ class InventoryServiceAndConcurrencyIntegrationTest {
     private UserRepository userRepository;
 
     @Autowired
+    private com.irctc.railconnect.user.repository.SavedPassengerRepository savedPassengerRepository;
+
+    @Autowired
     private JwtService jwtService;
 
     @Autowired
@@ -89,6 +92,7 @@ class InventoryServiceAndConcurrencyIntegrationTest {
     void setUp() {
         dailyTrainQuotaRepository.deleteAll();
         coachSeatRepository.deleteAll();
+        savedPassengerRepository.deleteAll();
         userRepository.deleteAll();
 
         Set<String> lockKeys = stringRedisTemplate.keys("inventory:lock:*");

@@ -87,6 +87,9 @@ class BookingAndPromotionIntegrationTest {
     private UserRepository userRepository;
 
     @Autowired
+    private com.irctc.railconnect.user.repository.SavedPassengerRepository savedPassengerRepository;
+
+    @Autowired
     private JwtService jwtService;
 
     @Autowired
@@ -109,6 +112,7 @@ class BookingAndPromotionIntegrationTest {
         paymentTransactionRepository.deleteAll();
         bookedPassengerRepository.deleteAll();
         bookingRepository.deleteAll();
+        savedPassengerRepository.deleteAll();
         dailyTrainQuotaRepository.deleteAll();
         coachSeatRepository.deleteAll();
         userRepository.deleteAll();
