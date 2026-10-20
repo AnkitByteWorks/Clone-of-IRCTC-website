@@ -10,8 +10,22 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Docker](https://img.shields.io/badge/Docker-Multi--Stage-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Testcontainers](https://img.shields.io/badge/Testcontainers-100%25_Green-FFA500?style=for-the-badge&logo=testcontainers&logoColor=white)](https://testcontainers.com/)
+[![Dataset](https://img.shields.io/badge/Dataset-1%2C000%20Trains%20%7C%20302%20Stations-blue?style=for-the-badge&logo=json)](datasheet/)
 
 **RailConnect** is an enterprise-grade, high-throughput railway reservation and inventory engine modeled after the core architecture of **Indian Railways (IRCTC / CRIS)**. It replaces legacy, monolithic ticketing bottlenecks with a polyglot, event-driven reactive microservices backend powered by **Java 25 Virtual Threads**, **MySQL 8.4 ACID pessimistic locking**, **MongoDB 7 dynamic schedule trees**, **Redis 7.4 distributed seat locking**, and **Apache Kafka KRaft event pipelines**, paired with a modern dark-mode **Tailwind CSS v4** single-page web application.
+
+---
+
+## 🚆 Open Indian Railways Dataset (`datasheet/`)
+
+Looking for an authentic Indian Railways dataset for your projects or research? RailConnect ships with a clean, comprehensive open-source dataset:
+
+- 📁 [`datasheet/stations.json`](datasheet/stations.json) — **302 Stations** across all Indian Railway zones (NR, NCR, ER, ECR, WR, SR, etc.) with code, name, city, state, zone & platforms.
+- 📁 [`datasheet/trains.json`](datasheet/trains.json) — **1,000 Trains** (Vande Bharat, Rajdhani, Shatabdi, Duronto, Express) with complete route timetables, distance, intermediate stops & day offsets.
+- 📁 [`datasheet/generate_dataset.js`](datasheet/generate_dataset.js) — Dataset synthesizer & validator.
+- 📖 Check out the [**Dataset Documentation & Schema Guide**](datasheet/README.md).
+
+---
 
 ---
 
