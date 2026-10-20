@@ -130,6 +130,36 @@ export const BookingApi = {
     apiRequest(`/api/v1/bookings/${encodeURIComponent(pnr)}/cancel`, {
       method: 'POST',
     }),
+
+  downloadTicketPdf: async (pnr) => {
+    const token = localStorage.getItem('rc_token');
+    const headers = {};
+    if (token) {
+      headers['Authorization'] = `Bearer ${token}`;
+    }
+    const response = await fetch(`/api/v1/bookings/pnr/${encodeURIComponent(pnr)}/pdf`, {
+      headers,
+    });
+    if (!response.ok) {
+      let errorMsg = `HTTP ${response.status}: Failed to download ticket PDF`;
+      try {
+        const errJson = await response.json();
+        if (errJson && errJson.message) errorMsg = errJson.message;
+      } catch {
+        // ignore
+      }
+      throw new Error(errorMsg);
+    }
+    const blob = await response.blob();
+    const url = window.URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `RailConnect_Ticket_${pnr}.pdf`;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    setTimeout(() => window.URL.revokeObjectURL(url), 10000);
+  },
 };
 
 export const NotificationApi = {

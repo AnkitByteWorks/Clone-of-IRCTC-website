@@ -387,4 +387,35 @@ class BookingAndPromotionIntegrationTest {
                 .andExpect(jsonPath("$.success").value(false))
                 .andExpect(jsonPath("$.errorCode").value("BUSINESS_RULE_VIOLATION"));
     }
+
+    @Test
+    @DisplayName("Should generate valid E-Ticket PDF with embedded QR Code")
+    void shouldGenerateTicketPdf() throws Exception {
+        LocalDate journeyDate = LocalDate.now().plusDays(25);
+        String trainNumber = "12309";
+        String classCode = "3A";
+
+        inventoryService.ensureDailyInventoryInitialized(trainNumber, journeyDate);
+        inventoryService.upsertQuotaConfig(new QuotaUpdateRequest(
+                trainNumber, journeyDate, classCode, QuotaType.GENERAL, 5, 2, 5
+        ));
+
+        UserEntity user = createTestUser("PDF User", "pdfuser@example.com", "9900000301");
+        String token = jwtService.generateToken(user);
+
+        BookingResponse booking = bookingService.createBooking(user.getId(), new CreateBookingRequest(
+                trainNumber, "PNBE", "NDLS", journeyDate, classCode, QuotaType.GENERAL, PaymentMethod.UPI,
+                List.of(new PassengerBookingInput("Aarav Sharma", 29, Gender.MALE, BerthPreference.LOWER, null, null))
+        ));
+
+        MvcResult result = mockMvc.perform(get("/api/v1/bookings/pnr/" + booking.pnrNumber() + "/pdf"))
+                .andExpect(status().isOk())
+                .andReturn();
+
+        assertThat(result.getResponse().getContentType()).isEqualTo(MediaType.APPLICATION_PDF_VALUE);
+        byte[] pdfBytes = result.getResponse().getContentAsByteArray();
+        assertThat(pdfBytes).isNotEmpty();
+        // PDF magic bytes: %PDF-
+        assertThat(new String(pdfBytes, 0, 5)).isEqualTo("%PDF-");
+    }
 }

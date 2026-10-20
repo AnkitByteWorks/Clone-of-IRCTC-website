@@ -1,6 +1,6 @@
 import './style.css';
 import { store } from './state/store.js';
-import { SystemApi, CatalogApi, InventoryApi, NotificationApi } from './api/client.js';
+import { SystemApi, CatalogApi, InventoryApi, NotificationApi, BookingApi } from './api/client.js';
 import { renderNavbar } from './components/Navbar.js';
 import { renderHeroSearch } from './components/HeroSearch.js';
 import { renderSearchResults } from './components/SearchResults.js';
@@ -157,3 +157,32 @@ setInterval(checkInfrastructure, 30000);
 
 // Auto-poll Kafka notifications every 15 seconds
 setInterval(loadUserNotifications, 15000);
+
+// Global Handler for E-Ticket PDF downloads across all views/modals
+document.addEventListener('click', async (e) => {
+  const btn = e.target.closest('[data-download-pdf]');
+  if (!btn) return;
+  const pnr = btn.getAttribute('data-download-pdf');
+  if (!pnr) return;
+
+  const originalContent = btn.innerHTML;
+  btn.disabled = true;
+  btn.classList.add('opacity-75', 'cursor-not-allowed');
+  btn.innerHTML = `
+    <svg class="animate-spin h-3.5 w-3.5 text-current inline" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+      <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+      <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+    </svg>
+    <span>Generating PDF...</span>
+  `;
+
+  try {
+    await BookingApi.downloadTicketPdf(pnr);
+  } catch (err) {
+    alert('Failed to generate ticket PDF: ' + (err.message || 'Unknown error'));
+  } finally {
+    btn.disabled = false;
+    btn.classList.remove('opacity-75', 'cursor-not-allowed');
+    btn.innerHTML = originalContent;
+  }
+});

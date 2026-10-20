@@ -153,6 +153,18 @@ export function generateTicketHtml(b, isModal = false) {
           </div>
 
           <button 
+            type="button"
+            data-download-pdf="${b.pnrNumber}"
+            class="px-4 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 transition flex items-center gap-1.5 print:hidden shadow-md shadow-cyan-500/20 active:scale-95"
+            title="Download Official IRCTC ERS PDF with embedded QR Code"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            <span>Download PDF</span>
+          </button>
+
+          <button 
             onclick="window.print()" 
             class="px-4 py-2 rounded-xl text-xs font-bold bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700 transition flex items-center gap-1.5 print:hidden shadow-sm"
           >

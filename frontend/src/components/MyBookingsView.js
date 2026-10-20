@@ -119,6 +119,18 @@ export function renderMyBookingsView(container) {
                       E-Ticket
                     </button>
 
+                    <button 
+                      type="button"
+                      data-download-pdf="${b.pnrNumber}" 
+                      class="download-pdf-btn px-3 py-1.5 rounded-xl bg-cyan-500/10 hover:bg-cyan-500/20 border border-cyan-500/30 text-xs font-semibold text-cyan-300 transition flex items-center gap-1"
+                      title="Download PDF E-Ticket"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+                      </svg>
+                      <span>PDF</span>
+                    </button>
+
                     ${!isCancelled ? `
                       <button 
                         data-cancel-pnr="${b.pnrNumber}" 

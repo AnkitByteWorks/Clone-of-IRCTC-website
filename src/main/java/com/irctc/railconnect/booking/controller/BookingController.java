@@ -3,10 +3,13 @@ package com.irctc.railconnect.booking.controller;
 import com.irctc.railconnect.booking.dto.BookingResponse;
 import com.irctc.railconnect.booking.dto.CreateBookingRequest;
 import com.irctc.railconnect.booking.service.BookingService;
+import com.irctc.railconnect.booking.service.TicketPdfService;
 import com.irctc.railconnect.common.response.ApiResponse;
 import com.irctc.railconnect.user.security.AuthenticatedUser;
 import jakarta.validation.Valid;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,9 +26,11 @@ import java.util.List;
 public class BookingController {
 
     private final BookingService bookingService;
+    private final TicketPdfService ticketPdfService;
 
-    public BookingController(BookingService bookingService) {
+    public BookingController(BookingService bookingService, TicketPdfService ticketPdfService) {
         this.bookingService = bookingService;
+        this.ticketPdfService = ticketPdfService;
     }
 
     @PostMapping
@@ -42,6 +47,16 @@ public class BookingController {
     public ResponseEntity<ApiResponse<BookingResponse>> getBookingByPnr(@PathVariable String pnrNumber) {
         BookingResponse response = bookingService.getBookingByPnr(pnrNumber);
         return ResponseEntity.ok(ApiResponse.ok("Booking details retrieved", response));
+    }
+
+    @GetMapping(value = "/pnr/{pnrNumber}/pdf", produces = MediaType.APPLICATION_PDF_VALUE)
+    public ResponseEntity<byte[]> downloadTicketPdf(@PathVariable String pnrNumber) {
+        BookingResponse booking = bookingService.getBookingByPnr(pnrNumber);
+        byte[] pdf = ticketPdfService.generateTicketPdf(booking);
+        return ResponseEntity.ok()
+                .header(HttpHeaders.CONTENT_DISPOSITION, "inline; filename=\"RailConnect_Ticket_" + pnrNumber + ".pdf\"")
+                .contentType(MediaType.APPLICATION_PDF)
+                .body(pdf);
     }
 
     @GetMapping("/my")
