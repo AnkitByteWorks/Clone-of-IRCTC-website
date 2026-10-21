@@ -47,7 +47,8 @@ public class CatalogDataInitializer implements ApplicationRunner {
     }
 
     public void seedCatalogIfEmpty() {
-        if (stationRepository.count() == 0) {
+        if (stationRepository.count() < 300) {
+            stationRepository.deleteAll();
             try (InputStream is = new ClassPathResource("data/stations.json").getInputStream()) {
                 List<StationDocument> stations = objectMapper.readValue(is, new TypeReference<List<StationDocument>>() {});
                 stationRepository.saveAll(stations);
@@ -57,7 +58,8 @@ public class CatalogDataInitializer implements ApplicationRunner {
             }
         }
 
-        if (trainScheduleRepository.count() == 0) {
+        if (trainScheduleRepository.count() < 1000) {
+            trainScheduleRepository.deleteAll();
             try (InputStream is = new ClassPathResource("data/trains.json").getInputStream()) {
                 List<TrainScheduleDocument> trains = objectMapper.readValue(is, new TypeReference<List<TrainScheduleDocument>>() {});
                 trainScheduleRepository.saveAll(trains);
